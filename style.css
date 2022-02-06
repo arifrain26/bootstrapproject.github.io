@@ -1,0 +1,30 @@
+a:hover{
+    color: red !important;
+}
+
+section.hero .container{
+    background-image: url(Images/food-table.jpg) !important;
+    /* height: 600px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-products-heading{
+    margin-bottom: 1rem;
+}
+.footer-social a i{
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+@media (max-width:768px){
+    section.hero .container{
+        padding: 1rem 0;
+    }
+}
+
+@media (max-width:540px){
+    .top-products-heading{
+        margin-bottom: 1rem;
+        
+    }
+
+}
